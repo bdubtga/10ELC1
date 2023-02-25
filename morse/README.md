@@ -6,7 +6,7 @@ This project takes serial input and converts it into morse code which is then sh
 - LED connected to digital pin 2.
 - Potentiometer connected to analog pin 0.
 
-###### Controls:
+###### Controls (Serial):
 - Typing plain letters or numbers will directly translate to morse.
 - Typing a space will add a space (long gap) between words.
 - '.' will manually type a dot.
