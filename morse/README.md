@@ -1,5 +1,5 @@
 ## Arduino Morse Code Translator
-This project takes serial input and converts it into morse code which is then shown on an LED connected to digital pin 2 on the arduino. Additionally, this project also has a potentiometer connected to analog pin 0 which controls the speed of the morse code.
+This project takes serial input and converts it into morse code which is then shown on an LED. Additionally, this project also has a potentiometer which controls the speed of the morse code.
 
 ###### Hardware Required:
 - Arduino
