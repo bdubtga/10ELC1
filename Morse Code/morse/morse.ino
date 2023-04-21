@@ -8,19 +8,19 @@ int led = 2; //the pin the LED is connected to
 int potpin = A1; //the pin the potentiometer is connected to
 float pot = analogRead(potpin); //the value of the potentiometer
 char input; //the character we're reading from the serial port
-int dot() {
+int dot() { //function to flash a dot on the LED
   digitalWrite(led, HIGH);
   delay(dotlength*speed);
   digitalWrite(led, LOW);
   delay(morsegap*speed);
 }
-int dash() {
+int dash() { //function to flash a dash on the LED
   digitalWrite(led, HIGH);
   delay(dashlength*speed);
   digitalWrite(led, LOW);
   delay(morsegap*speed);
 }
-float updatepot() {
+float updatepot() { //function to update the speed of the morse code
   Serial.println("Pot"); 
   pot = analogRead(potpin); 
   speed = pot/100; 

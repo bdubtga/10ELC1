@@ -1,0 +1,5 @@
+{
+    "board": "nulllab avr compatible boards:avr:Nano",
+    "port": "/dev/tty.usbserial-21230",
+    "sketch": "vehicle/controller/controller.ino"
+}
